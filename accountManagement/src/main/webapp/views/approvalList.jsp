@@ -3,7 +3,7 @@
 		<div class="row">
 
 			<div class="col-md-3">
-				<%@include file="./sidebarApproval.jsp" %>
+				<%@include file="./shared/sidebar.jsp" %>
 			</div>
 			</div>
 </div>
