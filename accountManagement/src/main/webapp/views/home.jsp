@@ -36,19 +36,26 @@
 
 <body>
 
-
+<div class="wrapper">
 	<!-- Navigation -->
 	<%@include file="./shared/navbar.jsp"%>
-	<%@include file="./shared/sidebar.jsp"%>
+	
 
 	<!-- Page Content -->
 
-	<h2>This is page Content</h2>
+	<div class="content">
+		<c:if test="${requestFormFlag==true}">
+			<%@include file="./requestForm.jsp" %>		
+		</c:if>
+		<c:if test="${approvalListFlag==true}">
+			<%@include file="./approvalList.jsp" %>		
+		</c:if>
+	</div>
 
 	<!-- Footer -->
 
 	<%@include file="./shared/footer.jsp"%>
-
+</div>
 	<!-- jQuery -->
 		<script src="${js}/jquery.js"></script>
 

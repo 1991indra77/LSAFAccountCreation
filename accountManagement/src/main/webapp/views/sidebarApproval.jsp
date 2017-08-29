@@ -3,6 +3,6 @@
 <p class="lead">Categories</p>
 <div class="list-group">
 		
-	<a href="./categories">Category1</a>
-
+	<a href="${contextRoot}/show/pendingApprovals" class="list-group-item">Pending Approvals</a>
+	<a href="${contextRoot}/show/allRequets" class="list-group-item">All Requets</a>
 </div>
