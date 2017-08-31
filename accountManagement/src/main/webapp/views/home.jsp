@@ -29,6 +29,8 @@
 <!-- Custom CSS -->
 <link href="${css}/bootstrap-custom-theme.css" rel="stylesheet">
 
+<!-- Custom CSS for Forms -->
+<link href="${css}/formPageCustomCSS.css" rel="stylesheet">
 <%-- <!-- Data Table CSS -->
 <link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
  --%>
@@ -64,10 +66,10 @@
 
 	<%-- <!-- DataTables -->
 		<script src="${js}/jquery.dataTables.js"></script>
-		<script src="${js}/dataTables.bootstrap.js"></script>
+		<script src="${js}/dataTables.bootstrap.js"></script>--%>
 
 		<!-- custom JS -->
-		<script src="${js}/myapp.js"></script> --%>
+		<script src="${js}/formDisplay.js"></script> 
 
 </body>
 

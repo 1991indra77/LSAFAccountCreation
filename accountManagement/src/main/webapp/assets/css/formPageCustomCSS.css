@@ -1,0 +1,98 @@
+#formHeading {
+	text-align: center;
+	text-shadow: black;
+	background: #92fcfc; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#dbffff, #318282);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#dbffff, #b2f4f4);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#dbffff, #b2f4f4);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#2a5e8e, #032d54); /* Standard syntax */
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 1.3em;
+	color: white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.formSection {
+	background-color: #e5e5e5;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border: 1px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border-color: #b3b7b7;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.sectionHeader {
+	font-weight: bold;
+	color: blue;
+	text-decoration: underline;
+}
+
+.userDetailHeader {
+	font-weight: bold;
+	color: black;
+}
+
+.inputBox {
+	
+	width: 90%;
+	padding: 6px 8px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: #b3b7b7;
+	border-style: solid;
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.readOnlyBox {
+	background: #92fcfc; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#dbffff, #318282);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#dbffff, #b2f4f4);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#dbffff, #b2f4f4);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e5eaea, #d4d8d8); /* Standard syntax */
+	width: 90%;
+	padding: 6px 8px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: #b3b7b7;
+	border-style: solid;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.clickable{
+    cursor: pointer;   
+}
+
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+	
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: red;
+    color: white;
+
+}
+
