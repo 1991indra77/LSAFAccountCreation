@@ -19,7 +19,7 @@
 }
 
 .formSection {
-	background-color: #e5e5e5;
+	background-color: #f4f5f7;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -27,7 +27,7 @@
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
-	border-color: #b3b7b7;
+	border-color: #dee0e2;
 	border-style: solid;
 	border-width: 2px;
 }
@@ -43,44 +43,40 @@
 	color: black;
 }
 
-.inputBox {
+.inputBox,.mksIntegrityTrial {
 	
-	width: 90%;
+	width: 100%;
 	padding: 6px 8px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 5px;
 	border-width: 1px;
-	border-color: #b3b7b7;
-	border-style: solid;
+	border-color: #eaebed;
+	border-style: inset;
 	display: inline-block;
 	box-sizing: border-box;
 	background-color: white;
+	border-width: 1px;
 }
 
 .readOnlyBox {
-	background: #92fcfc; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(#dbffff, #318282);
-	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#dbffff, #b2f4f4);
-	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#dbffff, #b2f4f4);
-	/* For Firefox 3.6 to 15 */
-	background: linear-gradient(#e5eaea, #d4d8d8); /* Standard syntax */
-	width: 90%;
+	
+	background-color:#edeeef;
+	width: 100%;
 	padding: 6px 8px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 5px;
-	border-width: 1px;
-	border-color: #b3b7b7;
-	border-style: solid;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border-width: 2px;
+	border-color: #e3e4e5;
+	border-style: inset;
 	display: inline-block;
 	box-sizing: border-box;
 }
 
 .clickable{
-    cursor: pointer;   
+    cursor: pointer;
+    color: white;   
 }
 
 .panel-heading span {
@@ -91,8 +87,112 @@
 
 .panel > .panel-heading {
     background-image: none;
-    background-color: red;
-    color: white;
+    background: #92fcfc; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#dbffff, #318282);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#dbffff, #b2f4f4);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#dbffff, #b2f4f4);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#0146b5, #002862); /* Standard syntax */
 
 }
 
+.panel > .panel-primary
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.checkBoxDetailsSection
+{
+	padding-left: 25px;
+	padding-right:25px
+
+}
+
+.userIteractionImagesAdd
+{
+	width:2.5em;
+	margin-left:-25px;
+	margin-top: 7px;
+	margin-right: -12px;
+	
+}
+
+.userIteractionImagesRemove
+{
+	width:2.5em;
+	margin-right:2px;
+	margin-top: 5px;
+	margin-left:-20px;
+}
+
+.userDetailRadioHeader{
+	
+	font-weight: bold;
+	display: inline;
+}
+
+.userIteractionImagesReAdd
+{
+	width:2.5em;
+	margin-left:5px;
+	margin-top: 7px;
+	margin-right: -12px;
+	
+}
+
+.userIteractionImagesReRemove
+{
+	width:2.5em;
+	margin-right:2px;
+	margin-top: 5px;
+	margin-left:-10px;
+}
+
+.searchButton, .certificationDeclareButton, .submitFormButton
+{
+	background-image: none;
+    background: #92fcfc; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#dbffff, #318282);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#dbffff, #b2f4f4);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#dbffff, #b2f4f4);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#0146b5, #002862); /* Standard syntax */
+	width:60%;
+	padding: 6px 8px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	color:white;
+	border-style: outset;
+	display: inline-block;
+	box-sizing: border-box;
+	border-width: 1px;
+	margin-top:10px;
+	
+}
+
+.idsSharepointCheckboxSublist,.lsafCheckboxSublist,.hpalmCheckboxSublist,.mksIntegrityCheckboxSublist,.idsDropZoneCheckboxSublist
+{
+	margin-left:20px;
+	border-width: 2px;
+	border-style:double;
+	border-color:#cccdce;
+	padding:10px;
+	background-color: #fcfcfc;
+	width: 80%;
+	
+}
+
+/* .checkboxHeader{
+	
+	dispaly:inline;
+	margin-left:2px;
+	font-weight: bold;
+	}
+ */

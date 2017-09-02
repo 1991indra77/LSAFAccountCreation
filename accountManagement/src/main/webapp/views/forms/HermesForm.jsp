@@ -1,6 +1,6 @@
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<h2 id="formHeading">LSAF Data Analytics and Reporting Request Form</h2>
+<h2 id="formHeading">Hermes IDS Application Access Request Form</h2>
 
 
 <form action="./SASDDFormSubmit" method="post">
@@ -9,7 +9,7 @@
 	</section>
 	<br />
 	<section class="formSection">
-		<%@include file="./SASDDFormComponents/SectionB.jsp" %>
+		<%@include file="./HermesFormComponents/SectionB.jsp" %>
 	</section>
 	<br>
 	<section class="formSection">

@@ -4,7 +4,7 @@
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <spring:url value="/resources/js/" var="js" />
 <spring:url value="/resources/css/" var="css" />
-<spring:url value="/resources/images/" var="image" />
+<spring:url value="/resources/images/" var="images" />
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,6 +31,7 @@
 
 <!-- Custom CSS for Forms -->
 <link href="${css}/formPageCustomCSS.css" rel="stylesheet">
+
 <%-- <!-- Data Table CSS -->
 <link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
  --%>

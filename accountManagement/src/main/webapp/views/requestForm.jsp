@@ -12,7 +12,7 @@
 					<%@include file="./forms/SASDDForm.jsp" %>
 				</c:if>
 				<c:if test="${IDSSubmitRequestFlag==true}">
-					<%@include file="./forms/IDSForm.jsp" %>
+					<%@include file="./forms/HermesForm.jsp" %>
 				</c:if>
 				
 			</div>
