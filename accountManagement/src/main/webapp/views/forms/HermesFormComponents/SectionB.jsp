@@ -1,7 +1,7 @@
 <div class="hermesSectonB">
 	<h5 class="sectionHeader">Section B: Access Requested For</h5>
 	<br> <input type="checkbox" name="idsSharepointCheckbox"
-		class="hermesAccessCheckbox"><b style="margin-left:8px; font-size:1.2em;">IDS Sharepoint</b><br> <br>
+		class="hermesAccessCheckbox" id="idsCheckBox"><b style="margin-left:8px; font-size:1.2em;">IDS Sharepoint</b><br> <br>
 	<div class="idsSharepointCheckboxSublist">
 		<div class="row">
 			<div class="col-md-8">
@@ -25,7 +25,7 @@
 		</div>
 	</div>
 	<br> <input type="checkbox" name="lsafCheckbox"
-		class="hermesAccessCheckbox"><b style="margin-left:8px; font-size:1.2em;">LSAF</b><br> <br>
+		class="hermesAccessCheckbox" id="lsafCheckBox"><b style="margin-left:8px; font-size:1.2em;">LSAF</b><br> <br>
 	<div class="lsafCheckboxSublist">
 		<div class="row">
 			<div class="col-md-10">
@@ -51,7 +51,7 @@
 		</div>
 	</div>
 	<br> <input type="checkbox" name="hpalmCheckbox"
-		class="hermesAccessCheckbox"><b style="margin-left:8px; font-size:1.2em;">HP ALM</b><br> <br>
+		class="hermesAccessCheckbox" id="hpalmCheckBox"><b style="margin-left:8px; font-size:1.2em;">HP ALM</b><br> <br>
 
 	<div class="hpalmCheckboxSublist">
 		<div class="row">
@@ -80,7 +80,7 @@
 
 	</div>
 	<br> <input type="checkbox" name="mksIntegrityCheckbox"
-		class="hermesAccessCheckbox"><b style="margin-left:8px; font-size:1.2em;">MKS Integrity</b><br> <br>
+		class="hermesAccessCheckbox" id="mksCheckBox"><b style="margin-left:8px; font-size:1.2em;">MKS Integrity</b><br> <br>
 	<div class="mksIntegrityCheckboxSublist">
 		<div class="row">
 			<div class="col-md-8">
@@ -91,7 +91,7 @@
 		</div>
 	</div>
 	<br> <input type="checkbox" name="idsDropzoneCheckbox"
-		class="hermesAccessCheckbox"><b style="margin-left:8px; font-size:1.2em;">IDS Dropzone</b><br> <br>
+		class="hermesAccessCheckbox" id="dropzoneCheckBox"><b style="margin-left:8px; font-size:1.2em;">IDS Dropzone</b><br> <br>
 	<div class="idsDropZoneCheckboxSublist">
 		<div class="row">
 			<div class="col-md-8">

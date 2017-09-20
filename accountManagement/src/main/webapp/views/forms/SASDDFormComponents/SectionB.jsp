@@ -1,11 +1,12 @@
 <div class="SASSDDSectionB">
 	<h5 class="sectionHeader">Section B: Access Requested For</h5>
-	<br> <input type="radio" checked="checked" value="newUser"
-		name="userAccountRadioButton">
+	<br> <input type="radio" value="newUser"
+		name="userAccountRadioButton" id="newUserRadio">
 	<p class="userDetailRadioHeader">Create new user account (only if
 		user does NOT have an account in production)</p>
 	<br> <br />
-	<div class="checkBoxDetailsSection">
+
+	<div class="checkBoxDetailsSection" id="newUserSection">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h3 class="panel-title">User Details</h3>
@@ -94,11 +95,12 @@
 			</div>
 		</div>
 	</div>
-	<input type="radio" value="createIdp" name="userAccountRadioButton">
+	<input type="radio" value="createIdp" name="userAccountRadioButton"
+		id="idpRadio">
 	<p class="userDetailRadioHeader">Create IDP and/or STUDYID and/or
 		RE Folder and/or CRO Folder</p>
 	<br /> <br />
-	<div class="checkBoxDetailsSection">
+	<div class="checkBoxDetailsSection" id="idpUserSection">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h3 class="panel-title">RE Details</h3>
@@ -144,34 +146,37 @@
 				<p class="userDetailHeader">* Only Existing users can get access
 					during the RE creation.New users should use this form to request
 					for account once the RE has been created.</p>
-				<div class="row">
-					<div class="col-md-5">
-						<p class="userDetailHeader">Role</p>
-						<select class="inputBox" name="userGivenReRole">
-							<option value="" selected disabled hidden>Select Role...</option>
-							<option>Test Value 1</option>
-							<option>Test Value 2</option>
-							<option>Test value 3</option>
-						</select>
-					</div>
-					<div class="col-md-5">
-						<p class="userDetailHeader">Users</p>
-						<input type="text" class="inputBox" name="userGivenReName">
-					</div>
-					<div class="col-md-2">
-						<div class="row">
-							<br>
-							<div class="col-md-6">
-								<img alt="+" src="${images}/addButton.PNG"
-									class="userIteractionImagesReAdd">
-							</div>
-							<div class="col-md-6">
-								<img alt="-" src="${images}/removeButton.PNG"
-									class="userIteractionImagesReRemove">
-							</div>
-						</div>
-					</div>
-				</div>
+				<table class="userRoleDetails">
+					<thead>
+						<tr>
+							<th class="headerTableCell">
+								<p class="userDetailHeader">Role</p>
+							</th>
+							<th class="headerTableCell">
+								<p class="userDetailHeader">Users</p>
+							</th>
+							<th class="headerTableCell"></th>
+						</tr>
+
+					</thead>
+					<tbody>
+						<tr>
+						
+							<td class="dataTableCell"><select class="inputBox" name="userGivenReRole">
+									<option value="" selected disabled hidden>Select Role...</option>
+									<option>Test Value 1</option>
+									<option>Test Value 2</option>
+									<option>Test value 3</option>
+							</select></td>
+							
+							<td class="dataTableCell"><input type="text" class="inputBox"
+								name="userGivenReName"></td>
+							<td class="imageCell"><img alt="+" src="${images}/addButton.PNG"
+								class="userIteractionImagesReAdd"></td>
+						</tr>
+					</tbody>
+				</table>
+				
 				<br>
 			</div>
 

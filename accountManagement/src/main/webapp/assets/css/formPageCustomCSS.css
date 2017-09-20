@@ -135,11 +135,11 @@
 	display: inline;
 }
 
-.userIteractionImagesReAdd
+.userIteractionImagesReAdd,.userIteractionImagesRemove
 {
 	width:2.5em;
 	margin-left:5px;
-	margin-top: 7px;
+	margin-top: -5px;
 	margin-right: -12px;
 	
 }
@@ -196,3 +196,21 @@
 	font-weight: bold;
 	}
  */
+ 
+ .userRoleDetails
+ {	
+ 	padding: 10px;
+ 	width: 100%;
+ 	
+  }
+  
+  .dataTableCell
+  {
+  	padding :10px;
+  }
+  
+  .headerTableCell{
+  	padding-left:10px;
+  }
+  
+
